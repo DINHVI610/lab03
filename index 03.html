@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 50px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color:rgb(14, 50, 10)
+        }
+        .row {
+            display: grid;
+            grid-template-columns:repeat(5, 5fr);
+            gap: 12px;
+            background-color: rgb(192, 255, 197);
+            color: rgb(42, 93, 36);
+            border: 3px solid rgb(79, 78, 78);
+            margin: 2px;
+            border-radius: 5px;
+            text-decoration: wavy;
+            text-align: center;
+            font-size: 25px;
+        }
+        .row:hover{
+            background-color: aqua;
+            border: 5px solid rgb(69, 68, 68);
+        }
+    </style>
+</head>
+<body>
+    <h1>Thời Khoá Biểu</h1>
+    <div class="timetable">
+    <div class="row header">
+        <div>Thứ / Tiết</div>
+        <div>Tiết 1</div>
+        <div>Tiết 2</div>
+        <div>Tiết 3</div>
+        <div>Tiết 4</div>
+    </div>
+    <div class="row">
+        <div>Thứ 2</div>
+        <div>Toán</div>
+        <div>Lý</div>
+        <div>Hóa</div>
+        <div>Văn</div>
+    </div>
+    <div class="row">
+        <div>Thứ 3</div>
+        <div>Sinh</div>
+        <div>Toán</div>
+        <div>Tiếng Anh</div>
+        <div>Văn</div>
+    </div>
+    <div class="row">
+        <div>Thứ 4</div>
+        <div>Hóa</div>
+        <div>Vật lý</div>
+        <div>Toán</div>
+        <div>Thể dục</div>
+    </div>
+
+</div>
+</body>
+</html>
