@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+
+        }
+        .mon{
+            background: #ed9494;
+            border: 3px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            gap: 5px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .mon:hover{
+            background-color: rgb(236, 32, 90);
+            border: 5px solid black;
+        }
+        h1{
+            font-weight: bolder;
+            text-align: center;
+            color:rgb(148, 13, 47);
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách môn học yêu thích</h1>
+    <div class="grid">
+    <div class="mon">
+        <h2>Toán học</h2>
+        <p>Mô tả môn học Toán</p>
+    </div>
+    <div class="mon">
+        <h2>Vật lý</h2>
+        <p>Mô tả môn học Vật lý</p>
+    </div>
+    <div class="mon">
+        <h2>Hóa học</h2>
+        <p>Mô tả môn học Hóa học</p>
+    </div>
+</div>
+    
+</body>
+</html>
